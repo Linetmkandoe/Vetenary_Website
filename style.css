@@ -1,0 +1,45 @@
+.topnav{
+    display: flex;
+    gap: 50px;
+
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.button{
+    background-color: purple;
+    color: white;
+}
+.one{
+    display: flex;
+    justify-content: space-around;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+}
+.best{
+    display: flex;
+    justify-content: space-around;
+}
+.patient{
+    display: flex;
+    justify-content: space-around;
+}
+.interest{
+    display: flex;
+    justify-content: space-around;
+}
+.qualified{
+    display: flex;
+    justify-content: space-around;
+}
+.bottom{
+    display: flex;
+    justify-content: space-around;
+}

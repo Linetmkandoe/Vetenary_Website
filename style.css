@@ -1,104 +1,119 @@
-.topnav{
-    display: flex;
-    justify-content: space-around;
-    
-
+.topnav {
+  display: flex;
+  justify-content: space-around;
 }
-.container{
-    display: flex;
-    justify-content: space-around;
+.container {
+  display: flex;
+  justify-content: space-around;
 }
-.button{
-    background-color: purple;
-    color: white;
+.button {
+  background-color: purple;
+  color: white;
 }
-.one{
-    display: flex;
-     justify-content: space-around;
+.one {
+  display: flex;
+  justify-content: space-around;
 }
-.icons{
-    display: flex;
-   justify-content: space-around;
+.icons {
+  display: flex;
+  justify-content: space-around;
 }
-.icon{
-    display: flex;
-   justify-content: space-around;
+.icon {
+  display: flex;
+  justify-content: space-around;
 }
-.best{
-    display: flex;
-    justify-content: space-around;
+.best {
+  display: flex;
+  justify-content: space-around;
 }
-.patient{
-    display: flex;
-    justify-content: space-around;
+.patient {
+  display: flex;
+  justify-content: space-around;
 }
-.interest{
-    display: flex;
-    justify-content: space-around;
+.interest {
+  display: flex;
+  justify-content: space-around;
 }
-.qualified{
-    display: flex;
-    justify-content: space-around;
+.qualified {
+  display: flex;
+  justify-content: space-around;
 }
-.bottom{
-    display: flex;
-    justify-content: space-around;
+.bottom {
+  display: flex;
+  justify-content: space-around;
 }
-button{
-    background-color: blueviolet;
-    color: white;
+button {
+  background-color: blueviolet;
+  color: white;
 }
-.span{
-    gap: 200px;
+.span {
+  gap: 200px;
 }
-.image1{
-    width: 500px;
-    height: 200px;
+.image1 {
+  width: 500px;
+  height: 200px;
 }
-.subscribe{
-padding-right: 50px;
+.subscribe {
+  padding-right: 50px;
 }
-#headshot{
-    width: 100px;
-    height: 100px;
+#headshot {
+  width: 100px;
+  height: 100px;
 }
-#headshot2{
-    width: 100px;
-    height: 100px;
+#headshot2 {
+  width: 100px;
+  height: 100px;
 }
-#star{
-    color:orangered;
+#star {
+  color: orangered;
 }
-.qualified{
-    margin-left: 20px;
+.qualified {
+  margin-left: 20px;
 }
 
+@media screen and(min-width:375px) and(max-width:667px) {
+ 
+ 
+ 
+  
 
-@media screen and(min-width:375px)and(max-width:1000px){
-    .qualified{
-      flex-wrap: wrap;
-    } 
-    .topnav{
-        gap: 10px;
-        padding-left: 20px;
-    }
-    .container{
-    /* flex-wrap: wrap; */
-flex-wrap: wrap;
-    
-    }
-    body{
-        overflow-x: hidden;
-    } 
-    button{
-        background-color: blueviolet;
-        color: white;
-    flex-wrap: wrap;}
-    .interest{
-        flex-wrap: wrap;
-        display: block;}
-        .patient{
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
-}
+  
+  body {
+    overflow-x: hidden;
+  }
+ 
+  
+  .interest {
+   display: block;
+  }
+
+  .patient {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #image1 {
+    height: 30%;
+    padding-left: 40px;
+  }
+  .an {
+    display: block;
+    font-size: small;
+  }
+  .bottom{
+    flex-flow: wrap;
+  }
+  .best{
+    display: block;
+  }
+  .container{
+    display: grid;
+  }
+  .icons{
+    display: flex;
+    font-size: small;
+  }
+  .icon{
+    display: block;
+    font-size: small;
+  } }
+
